@@ -8,6 +8,7 @@ def look_for_key(main_box):
                 pile.append(item)
             elif item.is_a_key():
                 print("found the key")
+                
 # pseudocode, more readable
 def look_for_key:
     for item in box:
